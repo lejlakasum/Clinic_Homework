@@ -1,0 +1,46 @@
+Admin panel:
+aadmin1
+Medicinsko osoblje panel:
+mnavratilova1
+Doktor panel:
+rfederer1
+Pacijent Panel:
+ttonic1
+Uprava panel:
+bbecker1
+
+Šifra za sve je '1234567'
+
+
+1. Zadatak
+
+a) Logo je animiran tako da plus blinka, a linije mijenjaju boju. U eventu paint se kreiraju dvije niti koje se onda istovremeno
+   nastavljaju izvršavati dok je pokrenuta forma za prijavu
+
+b) U AdminPanelu postoji u meniju opcija logovi koja otvara novu formu i na njoj ispisuje izuzetke iz odreðene datoteke.
+   Iz event-a koji upravlja klikom na dugme prikaži je pozvana async metoda koja uèitava podatke iz datoteke.
+   Metoda koja upisuje izuzetke u datoteku je async i ona se nalazi u klasi Glavna.
+   Takoðer u AdminPanelu postoji meni uvoz i izvoz podataka, a dogaðaji koji upravljaju klikom na pojedine stavke menija
+   su async, i unutar njih zadaci serijalizacije i deserijalizacije se obavljaju preko taskova što omoguæava da se forma ne blokira
+
+d) U panelima za osoblje i doktore postoje tabovi za red èekanja. Unutar dogaðaja koji upravljaju klikovima na dugme prikaži raspored
+   for i foreach petlje koje se odnose na pretragu ordinacije, i pacijenata su zamijenjene sa parallel.for i parallel.foreach.
+   Takoðer na panelu za osoblje dodan je novi tab TPL Pretraga, na kojem se može unijeti matièni broj pacijenta, i ukoliko on postoji
+   u klinici njegovi lièni podaci i podaci o pregledima se upisuju u dva odvojena listbox-a paralelno.
+   Kod se nalazi u eventu koji upravlja klikom na dugme prikaži.
+
+2. Zadatak
+
+Za zadatak 2 kreirana je posebna forma "PretragaDirektorija", a kod koji se odnosi na dohvatanje svih fajlova i direktorija iz odabranog
+direktorija nalazi se u eventu koji upravlja klikom na dugme "odaberi folder i pretraži"
+
+
+
+
+
+
+
+
+
+
+ 

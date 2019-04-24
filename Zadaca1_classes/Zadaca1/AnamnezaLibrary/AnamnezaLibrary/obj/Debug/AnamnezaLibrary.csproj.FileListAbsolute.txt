@@ -1,0 +1,4 @@
+D:\ETF-Materijali\III Semestar\Razvoj programskih rjesenja\Zadaca1\Zadaca1\AnamnezaLibrary\AnamnezaLibrary\bin\Debug\AnamnezaLibrary.dll
+D:\ETF-Materijali\III Semestar\Razvoj programskih rjesenja\Zadaca1\Zadaca1\AnamnezaLibrary\AnamnezaLibrary\bin\Debug\AnamnezaLibrary.pdb
+D:\ETF-Materijali\III Semestar\Razvoj programskih rjesenja\Zadaca1\Zadaca1\AnamnezaLibrary\AnamnezaLibrary\obj\Debug\AnamnezaLibrary.dll
+D:\ETF-Materijali\III Semestar\Razvoj programskih rjesenja\Zadaca1\Zadaca1\AnamnezaLibrary\AnamnezaLibrary\obj\Debug\AnamnezaLibrary.pdb

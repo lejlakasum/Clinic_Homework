@@ -1,0 +1,32 @@
+Admin panel:
+aadmin1
+Medicinsko osoblje panel:
+mnavratilova1
+Doktor panel:
+rfederer1
+Pacijent Panel:
+ttonic1
+Uprava panel:
+bbecker1
+
+Šifra za sve je '1234567'
+
+
+1. Zadatak - nije implementiran
+
+2. Zadatak
+
+a)
+-U Admin panelu u menu stripu postoji opcija masovnog uvoza i izvoza podataka
+-Dogaðaji koji upravljaju ovim opcijama su klikovi na pojedine stavke u meniju
+-Implementirane su samo binarna serijalizacija i deserijalizacija
+-XML nije jer sam koristila u kodu Dictionary, a našla sam informaciju koja kaže da on po defautlu nije serijalizabilan,
+ probala sam razna rješenje, od toga da ignorišem taj atribut preko raznih workaround-a za taj problem, ali nisam uspjela riješiti
+
+b)
+-U Admin panelu postoji na menu stripu opcija Logovi, klikom na nju otvara se nova forma koja daje moguænost pretrage izuzetaka
+-Za realizaciju sam napravila klasu Izuzetak koja ima atribute: enum Tip Izuzetka, kada se desio, ko ga je izazvao (korisnièko ime) i
+ poruka koju je izuzetak nosio
+-U klasi Glavna dodala sam statièku metodu "Dodaj izuzetak" koja u postojeæi (ili ako ne postoji kreira) file u debug folderu projekta
+ upisuje izuzetak, a funkcija se poziva u svakom catch bloku unutar projekta. 
+
